@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    margin-top: 0;
+}
+
+.title {
+    background-color: #02A28F;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    margin: 0;
+}
+
+.title > h1 {
+    margin: 0px;
+    margin-left: 21%;
+}
+
+.banner {
+    position: relative;
+    display: block;
+    margin-top: 80px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container-header { 
+    justify-content: center;
+    display: flex;
+    top: 120px;
+}
+
+.coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin-top: 80px;
+}
+
+.sub-title { 
+    width: 361;
+    height: 396;
+    left: 924px;
+    border-radius: 10px;
+}
+
+.post {
+   display: flex;
+   align-items: flex-start;
+   gap: 10px;
+   margin-top: 43px;
+   text-align: start;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 15px;
+}
+
+.posts h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sub-title > h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #02A28F;
+    border-radius: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+.posts > h3 { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 100%;
+}
+
+.posts > p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 100%;
+    color: #616161;
+}
+
+.artigos {
+    background-color: #02A28F;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.artigos > a {  
+    color: aliceblue;
+    margin-right: 2rem;
+    font-size: 14px;
+    height: 500;
+}
+
+.artigos > h2 {
+    margin-left: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+.list > h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #02A28F;
+    border-radius: 10px;
+    text-align: left;
+    color: #ffffff;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.list {
+    margin-top: 5px;
+}
+
+.list-card {
+    font-family: "Montserrat", sans-serif;
+    color: #616161;
+    list-style: none;
+    padding: 0px;
+}
+
+.list-card > li {
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+  justify-content: center;
+  gap: 20px
+  ;
+}
+
+.gren {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #02A28F;
+}
+
+.sub-cards > h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+ }
+
+ .card-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #616161;
+ }
+
+ .descritpion { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+ }
+
+ .date {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #616161;
+ }
+ 
+ footer {
+    background-color: #02A28F;
+    margin-top: 5rem;
+ }
+
+ footer > h3 {
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    text-align: center;
+ }
+
+/* ------------------ RESPONSIVO PARA CELULAR ------------------ */
+@media (max-width: 768px) {
+    .container-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title > h1 {
+        margin-left: 0;
+        font-size: 22px;
+    }
+
+    .banner {
+        border-radius: 10px;
+    }
+
+    .artigos {
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .artigos > h2 {
+        font-size: 18px;
+    }
+
+    .artigos > a {
+        font-size: 14px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .coluna-direita {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .list > h2 {
+        font-size: 18px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .post {
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .posts h3 {
+        font-size: 0.9rem;
+    }
+
+    .posts p {
+        font-size: 0.7rem;
+    }
+
+    .sub-cards > h3 {
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 13px;
+    }
+
+    .list-card > li {
+        font-size: 14px;
+    }
+
+    footer > h3 {
+        font-size: 12px;
+    }
+}
